@@ -7,9 +7,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar></Navbar>
         <Routes>
-          <Route></Route>
+          <Route><h1>CareWell</h1></Route>
         </Routes>
       </BrowserRouter>
     </>
