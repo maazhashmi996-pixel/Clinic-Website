@@ -8,7 +8,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route><h1>CareWell</h1></Route>
+          <Navbar/>
+          <Hero/>
         </Routes>
       </BrowserRouter>
     </>
