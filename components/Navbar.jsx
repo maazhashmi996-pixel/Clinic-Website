@@ -4,25 +4,24 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <>
-            <header class="text-gray-600 body-font">
-                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                    <Link class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                        <span class="ml-3 text-xl">Tailblocks</span>
+            <header className="text-[#8f8b8b] body-font font-[poppins] bg-white sticky top-0">
+                <div className="container w-[90%] mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                    <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <i className='fa fa-heartbeat text-[#0000ffbd] mr-2' style={{ fontSize: "30px" }}></i>
+                        <h1 className='flex flex-col items-center justify-center text-xl text-[#0000ffbd] font-semibold' >CareWell <span className=" text-blue-700 text-[11px]">Medical Center</span></h1>
                     </Link>
-                    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                        <Link class="mr-5 hover:text-gray-900">First Link</Link>
-                        <Link class="mr-5 hover:text-gray-900">Second Link</Link>
-                        <Link class="mr-5 hover:text-gray-900">Third Link</Link>
-                        <Link class="mr-5 hover:text-gray-900">Fourth Link</Link>
+                    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-medium gap-7">
+                        <Link to='/' className=" hover:text-[#0000ffbd]">Home</Link>
+                        <Link className=" hover:text-[#0000ffbd]">Departments</Link>
+                        <Link className=" hover:text-[#0000ffbd]">Doctors</Link>
+                        <Link className=" hover:text-[#0000ffbd]">About</Link>
+                        <Link className=" hover:text-[#0000ffbd]">Blog</Link>
+                        <Link className=" hover:text-[#0000ffbd]">Contact</Link>
                     </nav>
-                    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
+
+                    <button className="inline-flex items-center bg-[#0000ffbd] text-white border-0 py-3 px-7 font-medium focus:outline-none hover:bg-black hover:cursor-pointer transition-all ease-in-out duration-300 rounded-4xl text-base mt-4 md:mt-0">Book Appointment
                     </button>
+
                 </div>
             </header>
         </>
