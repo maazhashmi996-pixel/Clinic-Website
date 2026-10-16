@@ -19,7 +19,7 @@ function Navbar() {
                         <Link className=" hover:text-[#0000ffbd]">Contact</Link>
                     </nav>
 
-                    <button className="inline-flex items-center bg-[#0000ffbd] text-white border-0 py-3 px-7 font-medium focus:outline-none hover:bg-gray-200 rounded-4xl text-base mt-4 md:mt-0">Book Appointment
+                    <button className="inline-flex items-center bg-[#0000ffbd] text-white border-0 py-3 px-7 font-medium focus:outline-none hover:bg-black hover:cursor-pointer transition-all ease-in-out duration-300 rounded-4xl text-base mt-4 md:mt-0">Book Appointment
                     </button>
 
                 </div>
