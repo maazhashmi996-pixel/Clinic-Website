@@ -6,11 +6,18 @@ function HomeDepartment() {
         <>
             <section className="text-gray-600  bg-[#ddedff] body-font font-[poppins]">
                 <div className="container px-5 py-10 w-[90%] mx-auto">
-                    <div className="flex flex-col w-full mb-10">
+                    <div className="flex flex-col w-full lg:flex-row lg:justify-between mb-10">
                         <div>
                             <h2 className="text-xs text-indigo-500 tracking-widest font-semibold title-font mb-2 text-center lg:text-left">Our Departments</h2>
                             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-2 text-center lg:text-left">Specialized Care for Every Need</h1>
                             <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font text-center lg:text-left">We offer wide range of medical services to keep you and your family healty</h2>
+                        </div>
+                        <div className='flex justify-center'>
+                            <Link className=" mt-3 text-indigo-500 inline-flex items-center font-semibold">View All Departments
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </Link>
                         </div>
                     </div>
                     <div className='flex flex-wrap md:flex-nowrap gap-3'>
