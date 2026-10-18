@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <>
-            <header className="text-[#8f8b8b] body-font font-[poppins] bg-white sticky top-0">
+            <header className="text-[#8f8b8b] body-font font-[poppins] bg-white sticky top-0 z-10">
                 <div className="container w-[90%] mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <i className='fa fa-heartbeat text-[#0000ffbd] mr-2' style={{ fontSize: "30px" }}></i>

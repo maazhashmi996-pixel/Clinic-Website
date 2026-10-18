@@ -4,9 +4,3 @@
 @theme {
     --font-poppins: "Poppins", sans-serif;
 }
-
-.marginPadding {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
