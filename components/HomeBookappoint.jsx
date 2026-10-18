@@ -4,7 +4,7 @@ function HomeBookappoint() {
     return (
         <>
             <section className="text-gray-600 body-font relative bg-[#ddedff] marginPadding font-[poppins]">
-                <div className="container py-10 w-[88%] mx-auto flex justify-between sm:flex-nowrap flex-wrap">
+                <div className="container py-10 w-[88%] mx-auto flex justify-between flex-wrap">
                     <div className="lg:w-1/2 md:w-1/2 rounded-md overflow-hidden flex justify-start relative">
 
                         <div className=" relative flex flex-col gap-6 py-6 w-screen lg:w-5/6 items-center lg:flex-row lg:items-start ">

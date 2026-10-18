@@ -3,6 +3,7 @@ import HomeHero from '../components/HomeHero'
 import HomeDepartment from '../components/HomeDepartment'
 import HomeDocTeam from '../components/HomeDocTeam'
 import HomeBookappoint from '../components/HomeBookappoint'
+import HomefbSection from '../components/HomefbSection'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <HomeDepartment />
             <HomeDocTeam />
             <HomeBookappoint />
+            <HomefbSection />
         </>
     )
 }
