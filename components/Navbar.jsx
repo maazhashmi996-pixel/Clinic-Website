@@ -14,7 +14,7 @@ function Navbar() {
                         <Link to='/' className=" hover:text-[#0000ffbd]">Home</Link>
                         <Link className=" hover:text-[#0000ffbd]">Departments</Link>
                         <Link className=" hover:text-[#0000ffbd]">Doctors</Link>
-                        <Link className=" hover:text-[#0000ffbd]">About</Link>
+                        <Link to="/about" className=" hover:text-[#0000ffbd]">About</Link>
                         <Link className=" hover:text-[#0000ffbd]">Blog</Link>
                         <Link className=" hover:text-[#0000ffbd]">Contact</Link>
                     </nav>
