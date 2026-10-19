@@ -20,7 +20,7 @@ function HomeDocTeam() {
                 </div>
                 <section className="text-gray-600 body-font font-[poppins]">
                     <div className="container py-10 mx-auto">
-                        <div className="flex flex-wrap gap-4">
+                        <div className="flex flex-wrap gap-2">
                             <div className="md:w-1/3 lg:w-[19%] shadow-xl">
                                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-48 md:h-36 w-full object-top object-cover" src="/doc1.jpg" alt="blog" />

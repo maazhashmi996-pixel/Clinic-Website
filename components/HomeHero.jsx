@@ -11,12 +11,12 @@ function HomeHero() {
                             <span className='text-[#0000ffbd]'>for a Better Tomorrow</span>
                         </h1>
                         <p className="mb-8 leading-relaxed w-[80%]">At Carewell Medical Center, we provide trusted medical care with a team of experinced doctors, modern facilities and a patient-first approach</p>
-                        <div className="flex justify-center gap-3">
+                        <div className="flex justify-center gap-3 flex-col lg:flex-row">
                             <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">Book Appointment <i className='fa fa-calendar'></i></button>
                             <button className="flex gap-2 justify-center items-center font-medium text-[#0000ffbd] bg-transparent border-0 py-3 px-7 focus:outline-none hover:text-black rounded-4xl text-lg hover:cursor-pointer"><i className='fa fa-play'></i> Watch Our Stories</button>
                         </div>
-                        <div className='flex'>
-                            <div className="md:w-5/6 flex mt-8 ">
+                        <div className='flex flex-col lg:flex-row'>
+                            <div className="md:w-5/6 flex mt-8 flex-col items-center lg:flex-row lg:items-start ">
                                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 shrink-0">
                                     <svg
                                         fill="none"
@@ -36,7 +36,7 @@ function HomeHero() {
                                     <p className=" text-[#7e7d7d] leading-relaxed text-[10px]">High Qaualified & Experienced Medical Professionals</p>
                                 </div>
                             </div>
-                            <div className="md:w-5/6 flex mt-8 ">
+                            <div className="md:w-5/6 flex mt-8 flex-col items-center lg:flex-row lg:items-start">
                                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 shrink-0">
                                     <svg
                                         fill="none"
@@ -56,7 +56,7 @@ function HomeHero() {
                                     <p className=" text-[#7e7d7d] leading-relaxed text-[10px]">We're are here when you need us most</p>
                                 </div>
                             </div>
-                            <div className="md:w-5/6 flex mt-8 ">
+                            <div className="md:w-5/6 flex mt-8 flex-col items-center lg:flex-row lg:items-start">
                                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 shrink-0">
                                     <svg
                                         fill="none"
@@ -77,7 +77,7 @@ function HomeHero() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[45%] md:w-1/2 w-full h-[80vh] bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
+                    <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
                     </div>
                 </div>
 

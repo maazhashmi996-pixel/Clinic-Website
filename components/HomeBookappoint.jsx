@@ -17,7 +17,7 @@ function HomeBookappoint() {
                                     <h2 className="text-[14px] text-[gray] tracking-widest font-medium title-font text-center lg:text-left">Fill in the details below and our team will get back to you as soon as possible </h2>
                                 </div>
                                 <div className='w-full mt-4'>
-                                    <div className='flex justify-between px-6 lg:flex-col lg:gap-6 lg:mt-2'>
+                                    <div className='flex justify-between px-6 flex-col items-center lg:items-start lg:gap-6 lg:mt-2 gap-2'>
                                         <div className='flex gap-3'>
                                             <div className="w-12 h-12 rounded-full bg-[#8080805b] flex items-center justify-center">
                                                 <i
@@ -25,7 +25,7 @@ function HomeBookappoint() {
                                                     style={{ fontSize: "20px" }}
                                                 ></i>
                                             </div>
-                                            <div>
+                                            <div className='mr-5 lg:mr-0'>
                                                 <h2 className='font-semibold'>Call Us</h2>
                                                 <p className='font-semibold text-indigo-500'>+92 300 0000000</p>
                                             </div>
