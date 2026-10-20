@@ -4,11 +4,11 @@ function AboutStory() {
     return (
         <>
             <section className="text-gray-600 body-font font-[poppins]">
-                <div className="container mx-auto w-[90%] flex px-5 py-10 md:flex-row flex-col items-center">
+                <div className="container mx-auto w-[90%] flex px-5 py-10 md:flex-row lg:flex-row flex-col items-center">
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                         <img className="object-cover object-center rounded" alt="hero" src="/storybg.jpg" />
                     </div>
-                    <div className="lg:grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center gap-4  text-center min-h-full h-auto">
+                    <div className="lg:grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center gap-4 text-center">
                         <div className='w-full flex flex-col items-center lg:items-start'>
                             <p className='font-bold text-[#0000ffbd] mb-2'>ABOUT US</p>
                             <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-900 w-full">About <span className='text-[#0000ffbd]'>CareWell Medical Center</span>
