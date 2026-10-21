@@ -22,7 +22,9 @@ function Blog() {
                             <li className="mb-2">Medical Update</li>
                         </ul>
                     </div>
-                    <img className="object-cover object-center rounded " alt="hero" src="/doc1.png" width="300" />
+                     <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] bg-[url('/doctor4.jpg')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
+                    </div>
+                    {/* <img className="object-cover object-center rounded " alt="hero" src="/doc1.png" width="300" /> */}
 
                 </div>
             </section >
