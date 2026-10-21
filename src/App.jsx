@@ -1,29 +1,31 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Home from '../home/Home'
-import About from '../about/About'
-import Departments from '../departments/Departments'
-import Doctors from '../doctors/Doctors'
-import Blog from '../blog/Blog'
-import Contact from '../contact/Contact'
+import HeroDoc from '../components/HeroDoc'
+import Eccomerce from '../components/Eccomerce'
 import './App.css'
+import Foot from '../components/Foot'
+import Footer from '../Clinic-Website/components/Footer'
+
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/departments" element={<Departments />} />
-        <Route path="/doctors" element={<Doctors />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route
+          path="/"
+          element={
+            <>
+            <Navbar/>
+              <HeroDoc/>
+              <Eccomerce/>
+              <Foot/>
+            <Footer/>
+            </>
+          }
+        />
       </Routes>
-      <Footer />
+      
     </BrowserRouter>
   )
 }
