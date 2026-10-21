@@ -7,7 +7,7 @@ function AboutPurpose() {
             <section className="text-gray-600 body-font font-[poppins] bg-[#ddedff]">
                 <div className="container px-5 py-15 w-[90%] mx-auto flex flex-wrap lg:justify-between">
                     <div className="flex flex-col text-center lg:w-[40%] lg:text-start w-full mb-20 gap-4">
-                        <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font text-[14px] mb-1">Our Purpose</h2>
+                        <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font text-[14px] mb-1">OUR PURPOSE</h2>
                         <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900">Misson & Vision</h1>
                         <p className="text-xs text-[gray] tracking-widest font-medium text-[16px] title-font mb-1 lg:w-[95%]">We are driven by a simple mission, to make quality healthcare accessible to everyone, and build a healtier future for generations to come.</p>
                     </div>
