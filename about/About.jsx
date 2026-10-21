@@ -2,12 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import AboutHero from '../components/AboutHero'
 import AboutStory from '../components/AboutStory'
+import AboutPurpose from '../components/AboutPurpose'
 
 function About() {
     return (
         <>
             <AboutHero></AboutHero>
             <AboutStory></AboutStory>
+            <AboutPurpose></AboutPurpose>
         </>
     )
 }
