@@ -1,17 +1,27 @@
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import HeroDoc from '../components/HeroDoc'
+import Eccomerce from '../components/Eccomerce'
 import './App.css'
+import Foot from '../components/Foot'
 
 function App() {
-
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route><h1>CareWell</h1></Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroDoc/>
+              <Eccomerce/>
+              <Foot/>
+            </>
+          }
+        />
+      </Routes>
+      
+    </BrowserRouter>
   )
 }
 
