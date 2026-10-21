@@ -1,10 +1,13 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import HeroDoc from '../components/HeroDoc'
 import Eccomerce from '../components/Eccomerce'
 import './App.css'
 import Foot from '../components/Foot'
+import Footer from '../Clinic-Website/components/Footer'
+
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
               <HeroDoc/>
               <Eccomerce/>
               <Foot/>
+              <Footer/>
             </>
           }
         />
