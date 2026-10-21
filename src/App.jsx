@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 import HeroDoc from '../components/HeroDoc'
 import Eccomerce from '../components/Eccomerce'
 import './App.css'
@@ -13,6 +14,7 @@ function App() {
           path="/"
           element={
             <>
+            <Navbar/>
               <HeroDoc/>
               <Eccomerce/>
               <Foot/>
