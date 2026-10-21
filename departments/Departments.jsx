@@ -91,8 +91,8 @@ function Departments() {
         </div>
       </div>
       <div class="container px-5  mx-auto">
-        <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <div class="flex flex-wrap -m-4 ">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer ml-22 mr-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img1.jpg" />
             </a>
@@ -102,7 +102,7 @@ function Departments() {
               <p class="mt-1">Comprehensive care for adults and families ,from routine check-ups to chronic condition management.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer mx-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img2.jpg" />
             </a>
@@ -112,7 +112,7 @@ function Departments() {
               <p class="mt-1">Specialized care for heart and cardiovascular conditions, including diagnosis, treatment, and prevention.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer m-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img3.jpg" />
             </a>
@@ -122,7 +122,7 @@ function Departments() {
               <p class="mt-1">Specialized care for disorders of the nervous system, including the brain, spinal cord, and peripheral nerves.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer ml-22  mr-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img4.jpg" />
             </a>
@@ -132,7 +132,7 @@ function Departments() {
               <p class="mt-1">Specialized care for respiratory conditions, including asthma, COPD, and lung cancer.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer  mx-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img5.jpg" />
             </a>
@@ -142,7 +142,7 @@ function Departments() {
               <p class="mt-1">Comprehensive care for infants, children, and adolescents, from routine check-ups to specialized treatments.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer m-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img6.jpg" />
             </a>
@@ -152,7 +152,7 @@ function Departments() {
               <p class="mt-1">Specialized care for musculoskeletal conditions, including bones, joints, muscles, and ligaments.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer ml-22  mr-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img7.jpg" />
             </a>
@@ -162,7 +162,7 @@ function Departments() {
               <p class="mt-1">Specialized care for skin conditions, including acne, psoriasis, and skin cancer.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer mx-10 my-5 ">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img8.jpg" />
             </a>
@@ -172,7 +172,7 @@ function Departments() {
               <p class="mt-1">Specialized care for women's reproductive health, including prenatal care, menopause management, and fertility treatments.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer m-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img9.jpg"/>
             </a>
@@ -181,7 +181,7 @@ function Departments() {
               <p class="mt-1">Comprehensive care for conditions affecting the urinary system and male reproductive organs.</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer ml-22  mr-10 my-5 ">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img10.jpg" />
             </a>
@@ -191,7 +191,7 @@ function Departments() {
               <p class="mt-1">Specialized care for conditions affecting the digestive system, including the stomach, intestines, and related organs.</p>
             </div>
           </div>
-           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+           <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer  mx-10 my-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img11.jpg" />
             </a>
@@ -201,7 +201,7 @@ function Departments() {
               <p class="mt-1">Specialized care for the diagnosis and treatment of cancer, including chemotherapy, radiation therapy, and surgical interventions.</p>
             </div>
           </div>
-           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+           <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-blue-100  rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:cursor-pointer m-5">
             <a class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img12.jpg" />
             </a>
