@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route, Outlet, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -23,6 +22,7 @@ function Layout() {
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home/>} />
