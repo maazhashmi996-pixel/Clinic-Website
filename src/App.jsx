@@ -23,6 +23,7 @@ function Layout() {
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home/>} />

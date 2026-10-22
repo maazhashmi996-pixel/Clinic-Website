@@ -19,7 +19,7 @@ function AboutImpact() {
                     </div>
                     <div className="flex flex-wrap justify-between text-center lg:w-[60%]">
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 shadow-xl py-6 rounded-lg">
+                            <div className="border-2 border-gray-200 px-4 shadow-xl py-6 rounded-lg transition-all duration-500 hover:scale-[1.1]">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                     <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
                                     <circle cx="9" cy="7" r="4"></circle>
@@ -30,7 +30,7 @@ function AboutImpact() {
                             </div>
                         </div>
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full ">
-                            <div className="border-2 border-gray-200 px-4 py-6 shadow-xl rounded-lg">
+                            <div className="border-2 border-gray-200 px-4 py-6 shadow-xl rounded-lg transition-all duration-500 hover:scale-[1.1]">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
@@ -44,7 +44,7 @@ function AboutImpact() {
                             </div>
                         </div>
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-1 py-6 shadow-xl rounded-lg">
+                            <div className="border-2 border-gray-200 px-1 py-6 shadow-xl rounded-lg transition-all duration-500 hover:scale-[1.1]">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
@@ -58,7 +58,7 @@ function AboutImpact() {
                             </div>
                         </div>
                         <div className="p-4 xl:w-1/4 sm:w-1/2  w-full">
-                            <div className="border-2 border-gray-200 shadow-xl px-4 py-6 rounded-lg">
+                            <div className="border-2 border-gray-200 shadow-xl px-4 py-6 rounded-lg transition-all duration-500 hover:scale-[1.1]">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
