@@ -11,7 +11,7 @@ function HomeDocTeam() {
                         <h2 className="text-xs text-indigo-500 tracking-widest font-semibold title-font text-center lg:text-left">Our dedicated team of specialist is here to provide the best <br /> care with composition and expertise </h2>
                     </div>
                     <div className='flex justify-center'>
-                        <Link className=" mt-3 text-indigo-500 inline-flex items-center font-semibold">View All Doctors
+                        <Link className=" mt-3 text-indigo-500 inline-flex items-center font-bold">View All Doctors
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
