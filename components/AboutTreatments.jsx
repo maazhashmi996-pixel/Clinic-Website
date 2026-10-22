@@ -22,7 +22,7 @@ function AboutTreatments() {
                             <div className="flex flex-wrap justify-center gap-4">
 
 
-                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col">
+                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col transition-all duration-500 hover:scale-[1.1]">
                                     <img
                                         className="h-40 w-full object-cover object-top"
                                         src="/doc1.jpg"
@@ -36,7 +36,7 @@ function AboutTreatments() {
                                 </div>
 
 
-                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col">
+                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col transition-all duration-500 hover:scale-[1.1]">
                                     <img
                                         className="h-40 w-full object-cover object-top"
                                         src="/doc2.jpg"
@@ -50,7 +50,7 @@ function AboutTreatments() {
                                 </div>
 
 
-                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col">
+                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col transition-all duration-500 hover:scale-[1.1]">
                                     <img
                                         className="h-40 w-full object-cover object-top"
                                         src="/doc3.jpg"
@@ -64,7 +64,7 @@ function AboutTreatments() {
                                 </div>
 
 
-                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col">
+                                <div className="w-full h-full sm:w-[45%] xl:w-[22%] shadow-xl rounded-md overflow-hidden flex flex-col transition-all duration-500 hover:scale-[1.1]">
                                     <img
                                         className="h-40 w-full object-cover object-top"
                                         src="/doc4.jpg"
