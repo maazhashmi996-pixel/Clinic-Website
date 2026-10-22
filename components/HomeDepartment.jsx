@@ -22,7 +22,7 @@ function HomeDepartment() {
                     </div>
                     <div className='flex flex-wrap md:flex-nowrap gap-3'>
 
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
@@ -53,7 +53,7 @@ function HomeDepartment() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
@@ -84,7 +84,7 @@ function HomeDepartment() {
                                 <h2 className="text-gray-900 text-lg title-font font-bold">Cardiology</h2>
                             </div>
 
-                            <div className="grow flex flex-col items-center lg:items-start">
+                            <div className="grow flex flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                                 <p className="leading-relaxed text-[12px]">Advanced heart care for<br className=' hidden lg:block' />healtheir life.</p>
                                 <Link className=" mt-3 text-indigo-500 inline-flex items-center font-semibold">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -93,7 +93,7 @@ function HomeDepartment() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
@@ -127,7 +127,7 @@ function HomeDepartment() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
@@ -164,7 +164,7 @@ function HomeDepartment() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
@@ -191,7 +191,7 @@ function HomeDepartment() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start">
+                        <div className="flex rounded-lg w-full bg-white p-5 flex-col items-center lg:items-start transition-all duration-500 hover:scale-[1.1]">
                             <div className="flex flex-col gap-2 items-center lg:items-start mb-3">
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
