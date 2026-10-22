@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function AboutHero() {
     return (
@@ -12,9 +13,11 @@ function AboutHero() {
                         </h1>
                         <p className="mb-8 leading-relaxed w-[80%]">At CareWell Medical Center, We are committed to providing exceptional healthcare services with compassion, expertise and a patient-first approach. We believe in better health, happier lives and stronger communities.</p>
                         <div className="flex justify-center gap-3 flex-col lg:flex-row">
-                            <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">Our Departments<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg></button>
+                            <Link to='/departments'>
+                                <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">Our Departments<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg></button>
+                            </Link>
                         </div>
                     </div>
                     <div className="lg:w-[50%] md:w-1/2 w-full h-[65vh] bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">

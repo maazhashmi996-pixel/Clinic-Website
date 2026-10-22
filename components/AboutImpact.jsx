@@ -6,19 +6,20 @@ function AboutImpact() {
         <>
             <section className="text-gray-600 body-font font-[poppins]">
                 <div className=" px-5 py-10 flex flex-wrap w-[90%] mx-auto items-center justify-center lg:justify-between xl:justify-between">
-                    <div className="flex flex-col text-center lg:w-[35%] lg:text-start w-full mb-20 gap-4">
+                    <div className="flex flex-col text-center lg:w-[35%] lg:text-start w-full gap-4">
                         <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font text-[14px] mb-1">OUR IMPACT</h2>
                         <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900">Numbers That <br className='hidden xl:block' /> Show Our Commitment</h1>
                         <p className="text-xs text-[gray] tracking-widest font-medium text-[16px] title-font mb-1 ">Our dedication to quality care is reflected in the trust of our patients and the success of our services.</p>
                         <div className="flex items-center gap-3 flex-col lg:justify-start lg:flex-row">
-                            <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">View Our Departments<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg></button>
+                            <Link to='/departments'>
+                                <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">View Our Departments<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg></button></Link>
                         </div>
                     </div>
                     <div className="flex flex-wrap justify-between text-center lg:w-[60%]">
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <div className="border-2 border-gray-200 px-4 shadow-xl py-6 rounded-lg">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                     <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
                                     <circle cx="9" cy="7" r="4"></circle>
@@ -29,7 +30,7 @@ function AboutImpact() {
                             </div>
                         </div>
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full ">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <div className="border-2 border-gray-200 px-4 py-6 shadow-xl rounded-lg">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
@@ -43,7 +44,7 @@ function AboutImpact() {
                             </div>
                         </div>
                         <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-1 py-6 rounded-lg">
+                            <div className="border-2 border-gray-200 px-1 py-6 shadow-xl rounded-lg">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
@@ -56,8 +57,8 @@ function AboutImpact() {
                                 <p className="leading-relaxed text-[12px] font-semibold">Specialized Departments</p>
                             </div>
                         </div>
-                        <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <div className="p-4 xl:w-1/4 sm:w-1/2  w-full">
+                            <div className="border-2 border-gray-200 shadow-xl px-4 py-6 rounded-lg">
                                 <svg
                                     fill="currentColor"
                                     stroke="none"
