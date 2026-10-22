@@ -78,12 +78,12 @@ function Departments() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] bg-[url('/doctor-image.jpg')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
+                    <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
                     </div>
       </div>
     </section>
      <section class="text-gray-600 body-font">
-      <div class="container  flex px-5 py-15 mb-8 md:flex-row flex-col items-center">
+      <div class="container  flex px-15 py-15 mb-8 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="text-lg font-bold text-indigo-600 mb-2  ">Our Departments</h1>
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-2xl">Find the right care for your health</h1>
@@ -214,7 +214,7 @@ function Departments() {
         </div>
         </div>
     </section>
-     <section class="text-gray-600 body-font">
+     <section class="text-gray-600 body-font mx-20">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h5 class="text-lg font-bold text-indigo-600 mb-2">Why Choose Us</h5>
