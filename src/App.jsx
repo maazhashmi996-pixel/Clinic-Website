@@ -13,7 +13,6 @@ function Layout() {
   return (
     <>
       <Outlet/>
-      <Footer/>
     </>
   )
 }
@@ -31,6 +30,7 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
         </Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
