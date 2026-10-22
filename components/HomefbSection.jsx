@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 function HomefbSection() {
     return (
         <>
-            <section class="text-gray-600 body-font bg-[#EAF4FF]">
+            <section class="text-gray-600 body-font bg-[#EAF4FF] font-[poppins]">
                 <div class="container px-5 py-10 mx-auto w-[90%]">
                     <div>
                         <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font mb-2 text-center lg:text-left">Testimonials</h2>
                         <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-2 text-center lg:text-left">What Our Patients Say</h1>
-                        <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font text-center lg:text-left">Real stories from real people. Your Trust means everyting to us.</h2>
+                        <h2 className="text-xs text-indigo-500 tracking-widest font-semibold title-font text-center lg:text-left">Real stories from real people. Your Trust means everyting to us.</h2>
                     </div>
                     <div class="flex flex-wrap mt-8 -m-4 gap-5">
                         <div class="md:w-[30%] w-full">

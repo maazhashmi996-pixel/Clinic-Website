@@ -10,15 +10,15 @@ function AboutStory() {
                     </div>
                     <div className="lg:grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center gap-4 text-center">
                         <div className='w-full flex flex-col items-center lg:items-start'>
-                            <p className='font-bold text-[#0000ffbd] mb-2'>ABOUT US</p>
+                            <p className='font-bold text-[#0000ffbd] mb-2'>OUR STORY</p>
                             <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-900 w-full">About <span className='text-[#0000ffbd]'>CareWell Medical Center</span>
                             </h1>
                         </div>
                         <p className="mb-8 leading-relaxed">CareWell Medical Center was founded with a simple belief — everyone deserves access to high-quality, compassionate healthcare. What started as a small clinic has grown into a trusted medical center, serving thousands of patients and families in our community.
                             <br /><br />
                             Our team of experienced doctors, nurses, and healthcare professionals work together to deliver personalized treatment, advanced technology, and comprehensive care under one roof.</p>
-                        <div className='flex gap-8'>
-                            <div className='flex gap-2 items-center'>
+                        <div className='flex flex-col lg:flex-row gap-8'>
+                            <div className='flex gap-2 items-center justify-center'>
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
                                         fill="none"
@@ -41,7 +41,7 @@ function AboutStory() {
                                     <p className='font-normal'>Years of Experience</p>
                                 </div>
                             </div>
-                            <div className='flex gap-2 items-center'>
+                            <div className='flex gap-2 items-center justify-center'>
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
                                         fill="none"
@@ -61,7 +61,7 @@ function AboutStory() {
                                     <p className='font-normal'>Expert Doctors</p>
                                 </div>
                             </div>
-                            <div className='flex gap-2 items-center'>
+                            <div className='flex gap-2 items-center justify-center'>
                                 <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 shrink-0">
                                     <svg
                                         fill="none"

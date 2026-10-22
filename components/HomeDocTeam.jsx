@@ -6,9 +6,9 @@ function HomeDocTeam() {
             <div className="container px-5 py-10 w-[90%] mx-auto">
                 <div className="flex flex-col w-full lg:flex-row lg:justify-between mb-10">
                     <div>
-                        <h2 className="text-xs text-indigo-500 tracking-widest font-semibold title-font mb-2 text-center lg:text-left">Our Team</h2>
+                        <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font mb-2 text-center lg:text-left">Our Team</h2>
                         <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-2 text-center lg:text-left">Meet Our Doctors</h1>
-                        <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font text-center lg:text-left">Our dedicated team of specialist is here to provide the best <br /> care with composition and expertise </h2>
+                        <h2 className="text-xs text-indigo-500 tracking-widest font-semibold title-font text-center lg:text-left">Our dedicated team of specialist is here to provide the best <br /> care with composition and expertise </h2>
                     </div>
                     <div className='flex justify-center'>
                         <Link className=" mt-3 text-indigo-500 inline-flex items-center font-semibold">View All Doctors

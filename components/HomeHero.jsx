@@ -6,7 +6,7 @@ function HomeHero() {
             <section className="text-gray-600 body-font font-[poppins]  bg-[#EAF4FF] min-h-screen h-auto marginPadding">
                 <div className="container mx-auto w-[90%] flex py-5 px-5 md:flex-row flex-col items-center">
                     <div className="lg:w-1/2 md:w-1/2 flex flex-col md:items-start md:text-left gap-4 md:mb-0 items-center text-center">
-                        <p className='font-medium text-[#0000ffbd]'>Your Health, Our Prority</p>
+                        <p className='font-bold text-[#0000ffbd]'>Your Health, Our Prority</p>
                         <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-900 flex flex-col gap-2">Quality Heathcare
                             <span className='text-[#0000ffbd]'>for a Better Tomorrow</span>
                         </h1>
