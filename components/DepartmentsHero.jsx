@@ -1,19 +1,20 @@
 import React from 'react'
 
-function HomeHero() {
+function DepartmentsHero() {
     return (
-        <>
-            <section className="text-gray-600 body-font font-[poppins]  bg-[#EAF4FF] min-h-screen h-auto marginPadding">
-                <div className="container mx-auto w-[90%] flex py-5 px-5 md:flex-row flex-col items-center">
-                    <div className="lg:w-1/2 md:w-1/2 flex flex-col md:items-start md:text-left gap-4 md:mb-0 items-center text-center">
-                        <p className='font-medium text-[#0000ffbd]'>Your Health, Our Prority</p>
-                        <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-900 flex flex-col gap-2">Quality Heathcare
-                            <span className='text-[#0000ffbd]'>for a Better Tomorrow</span>
-                        </h1>
-                        <p className="mb-8 leading-relaxed w-[80%]">At Carewell Medical Center, we provide trusted medical care with a team of experinced doctors, modern facilities and a patient-first approach</p>
-                        <div className="flex justify-center gap-3 flex-col lg:flex-row">
-                            <button className="flex gap-2 justify-center items-center font-medium text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-black rounded-4xl text-lg hover:cursor-pointer">Book Appointment <i className='fa fa-calendar'></i></button>
-                            <button className="flex gap-2 justify-center items-center font-medium text-[#0000ffbd] bg-transparent border-0 py-3 px-7 focus:outline-none hover:text-black rounded-4xl text-lg hover:cursor-pointer"><i className='fa fa-play'></i> Watch Our Stories</button>
+        <div>
+            <section class="text-gray-600 body-font">
+                <div class="flex px-10 py-20  items-center bg-blue-100">
+                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h5 class="text-lg font-bold text-indigo-600 mb-2">Our Departments</h5>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Find the right care for your health</h1>
+                        <p class="mb-8 leading-relaxed">We offer a wide range of medical specialties and advanced care services to meet your unique health needs.Explore our departments and find the right specialist for you.</p>
+                        <div class="flex w-full md:justify-start justify-center items-end">
+                            <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+                                <label for="hero-field" class="leading-7 text-sm text-gray-600"></label>
+                                <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" Placeholder="search for a department" />
+                            </div>
+                            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Search</button>
                         </div>
                         <div className='flex flex-col lg:flex-row'>
                             <div className="md:w-5/6 flex mt-8 flex-col items-center lg:flex-row lg:items-start ">
@@ -77,13 +78,12 @@ function HomeHero() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
+                    <div className="lg:w-[50%] md:w-1/2 w-full h-[80vh] mr-12 bg-[url('/heroImage.png')] bg-no-repeat bg-cover bg-center rounded-2xl shadow-2xl mt-6 ml-2">
                     </div>
                 </div>
-
-            </section >
-        </>
+            </section>
+        </div>
     )
 }
 
-export default HomeHero
+export default DepartmentsHero
