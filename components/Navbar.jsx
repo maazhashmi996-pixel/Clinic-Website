@@ -13,7 +13,7 @@ function Navbar() {
                     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-medium gap-7">
                         <Link to='/' className=" hover:text-[#0000ffbd]">Home</Link>
                         <Link to='/departments' className=" hover:text-[#0000ffbd]">Departments</Link>
-                        <Link  to='/Doctor' className=" hover:text-[#0000ffbd]">Doctors</Link>
+                        <Link  to='/Docters' className=" hover:text-[#0000ffbd]">Doctor</Link>
                         <Link to="/about" className=" hover:text-[#0000ffbd]">About</Link>
                         <Link to='blog' className=" hover:text-[#0000ffbd]">Blog</Link>
                         <Link  to='Contact' className=" hover:text-[#0000ffbd]">Contact</Link>
