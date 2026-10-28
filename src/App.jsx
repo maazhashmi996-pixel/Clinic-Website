@@ -1,5 +1,5 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom'
+
+import { BrowserRouter, Routes, Route, Outlet, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -15,30 +15,26 @@ import './App.css'
 function Layout() {
   return (
     <>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <Outlet/>
+      <Footer/>
     </>
   )
 }
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          {/* Main Layout jis mein saare pages load honge */}
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/doctors" element={<Doctor />} />
-            <Route path="/departments" element={<Departments />} />
-            <Route path="/blog" element={<Blog />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route element={<Layout/>}>
+          <Route path="/" element={<Home/>} />
+          <Route path="/departments" element={<Departments/>} />
+          <Route path="/doctors" element={<Doctor/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/blog" element={<Blog/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
