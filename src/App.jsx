@@ -1,18 +1,22 @@
+
 import { BrowserRouter, Routes, Route, Outlet, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+
+// Aapke saare baaki folder paths (jo bilkul sahi hain)
 import Home from '../home/Home'
 import About from '../about/About'
+import Doctor from '../Docters/Doctor'
 import Departments from '../departments/Departments'
 import Blog from '../blog/Blog'
-import Doctor from '../Docters/Doctor'
 import './App.css'
 
-// Navbar on top and Footer at the bottom of every page; <Outlet/> is where the page goes
+// Layout Function jo aapki screen par Navbar aur Footer show karega
 function Layout() {
   return (
     <>
       <Outlet/>
+      <Footer/>
     </>
   )
 }
@@ -20,7 +24,7 @@ function Layout() {
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home/>} />
@@ -30,7 +34,6 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
         </Route>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   )
 }
