@@ -12,7 +12,6 @@ import './App.css'
 function Layout() {
   return (
     <>
-      <Navbar/>
       <Outlet/>
       <Footer/>
     </>
@@ -22,7 +21,7 @@ function Layout() {
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home/>} />
