@@ -32,7 +32,6 @@ function App() {
           <Route path="/Docters" element={<Doctor/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/blog" element={<Blog/>} />
-        
         </Route>
       </Routes>
     </BrowserRouter>
