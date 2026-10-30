@@ -4,7 +4,7 @@ function HeroDoc() {
   return (
 <>
   <section className="overflow-hidden bg-[#EAF4FF] text-gray-600 body-font">
-    <div className="container mx-auto flex flex-col items-center gap-12 px-5 py-16 md:flex-row lg:gap-20 lg:py-20">
+    <div className="container mx-auto flex flex-col items-center gap-10 px-5 py-10 sm:py-14 md:flex-row md:gap-10 lg:gap-20 lg:py-20">
 
     
       <div className="flex flex-col items-center text-center md:w-3/5 md:items-start md:text-left lg:flex-grow">
@@ -39,11 +39,11 @@ function HeroDoc() {
         </div>
 
       
-        <div className="mt-8 flex w-full max-w-xl flex-wrap items-center justify-center gap-y-5 sm:flex-nowrap md:justify-start">
+        <div className="mt-8 flex w-full max-w-xl flex-wrap items-center justify-center gap-x-6 gap-y-5 md:justify-start xl:flex-nowrap xl:gap-x-0">
 
         
-          <div className="flex items-center gap-2 pr-3 lg:gap-3 lg:pr-5">
-            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 lg:h-11 lg:w-11">
+          <div className="flex items-center gap-2 xl:gap-3 xl:pr-5">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 xl:h-11 xl:w-11">
               <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
@@ -56,8 +56,8 @@ function HeroDoc() {
           </div>
 
           
-          <div className="flex items-center gap-2 border-gray-300 px-3 sm:border-l lg:gap-3 lg:px-5">
-            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 lg:h-11 lg:w-11">
+          <div className="flex items-center gap-2 border-gray-300 xl:border-l xl:gap-3 xl:px-5">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 xl:h-11 xl:w-11">
               <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
@@ -69,8 +69,8 @@ function HeroDoc() {
           </div>
 
           
-          <div className="flex items-center gap-2 border-gray-300 pl-3 sm:border-l lg:gap-3 lg:pl-5">
-            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 lg:h-11 lg:w-11">
+          <div className="flex items-center gap-2 border-gray-300 xl:border-l xl:gap-3 xl:pl-5">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 xl:h-11 xl:w-11">
               <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
               </svg>
@@ -84,7 +84,7 @@ function HeroDoc() {
         </div>
       </div>
 
-   <div className="w-5/6 pb-10 pl-8 pr-8 pt-2 md:w-2/5 lg:max-w-lg">
+   <div className="w-full max-w-sm px-8 pb-10 pt-2 sm:max-w-md md:w-2/5 md:max-w-none lg:max-w-lg">
   <div className="relative">
     
     <div className="absolute -left-6 top-6 h-full w-full rounded-l-[200px] rounded-tr-[60px] bg-blue-100"></div>
@@ -92,7 +92,7 @@ function HeroDoc() {
     <div className="absolute -bottom-8 -right-8 h-40 w-40 rounded-full bg-blue-200/60"></div>
 
     <img
-      className="relative h-[420px] w-full rounded-br-[160px] rounded-tl-[160px] object-cover object-top shadow-xl md:h-[520px] lg:h-[600px]"
+      className="relative h-[320px] w-full rounded-br-[120px] rounded-tl-[120px] object-cover object-top shadow-xl sm:h-[400px] sm:rounded-br-[160px] sm:rounded-tl-[160px] md:h-[440px] lg:h-[560px]"
       alt="hero"
       src="/img.jpg"
     />
