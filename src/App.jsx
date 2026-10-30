@@ -36,7 +36,7 @@ function App() {
           <Route path="/Contact" element={<Contacts/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> 
   )
 }
 
