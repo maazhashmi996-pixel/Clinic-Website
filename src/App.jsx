@@ -10,6 +10,7 @@ import Doctor from '../Docters/Doctor'
 import Departments from '../departments/Departments'
 import Blog from '../blog/Blog'
 import './App.css'
+import Contacts from '../Contact/Contacts'
 
 // Layout Function jo aapki screen par Navbar aur Footer show karega
 function Layout() {
@@ -32,7 +33,7 @@ function App() {
           <Route path="/Docters" element={<Doctor/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/blog" element={<Blog/>} />
-        
+          <Route path="/Contact" element={<Contacts/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
